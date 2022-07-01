@@ -111,9 +111,13 @@ li {
 }
 
 .amazingteam {
+	background-image: url("assets/bgk-header.png");
+	background-size: contain; 
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	padding-top: 50px;
+	color: white;
 }
 
 .meet {
