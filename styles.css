@@ -71,7 +71,7 @@ table {
    section Christian
 */
 
-/* * { outline: solid 2px rgba(255, 27, 27, 0.76); } */
+* { outline: solid 2px rgba(255, 27, 27, 0.76); }
 
 #team_section{
     position: relative;
@@ -85,7 +85,7 @@ table {
 
 }
 
-#team_section .container{
+#team_section  .container{
     margin-right: auto;
     margin-left: auto;
     width: 100%;
@@ -105,16 +105,77 @@ table {
     text-align: center;
 }
 
+#contact_section  .container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#contact_section .container .row{
+    width: 100%;
+    max-width: 80%;
+    margin: 60px 0px 10px 0px;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 40px;
+}
+
+#contact_section .container .row .col-2{
+    box-sizing: border-box;
+    width: 45%;
+    min-width: 200px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact_section .container .row .col-2 .horiz-wrapper{
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 200px;
+    height: auto;
+    min-height: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 30px;
+}
+
+#contact_section .container .row .col-2 img{
+   width: 125px;
+    /* margin-top: 40px; */
+}
+
 #team_section .container .row2{
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     max-width: 70%;
     margin: 20px;
     color: white;
-
+    gap: 40px;
 }
 
 #team_section .container .row3{
@@ -126,26 +187,32 @@ table {
 }
 
 #team_section .container .row2 .col-1{
-    width: 25%;
+    /* width: 20%; */
+    flex-basis: 20%;
+    min-width: 200px;
     height: auto;
-    margin: 20px;
+    /* margin: 20px; */
+
     display: flex;
     justify-content: center;
 }
 
 #team_section .row h1{
+    font-size: 33px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 
 #team_section .row h2{
+    font-size: 23px;
     margin-top: 15px;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 #team_section hr{
     width: 66px;
-    margin-top: 15px;
+    margin-top: 25px;
     opacity: 0.3;
 }
 
@@ -191,7 +258,44 @@ table {
     width: 200px;
 }
 
+#team_section .row3 h2{
+    font-size: 23px;
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.7);
+}
 
+#contact_section form{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and ( max-width: 575.98px ) {   
+              /* forces three items to a line */
+  }
+
+@media screen and ( max-width: 767.98px ) {   
+    #team_section .container .row2 .col-1{
+        flex-basis: 50%
+    }               /* forces three items to a line */
+  }
+
+  @media screen and ( max-width: 991.98px ) {   
+    #contact_section .container .row .col-2 .horiz-wrapper{
+        gap: 30px;
+        margin-top: 30px;
+    }
+    
+  }
+
+  @media screen and ( max-width: 1199.98px ) {   
+              /* forces three items to a line */
+  }
+
+  @media screen and ( max-width: 1399.98px ) {   
+    #team_section .container .row2 .col-1{
+        flex-basis: 33%
+    }               /* forces three items to a line */
+  }
 
 
 /* 
