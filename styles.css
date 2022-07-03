@@ -54,6 +54,91 @@ table {
    section Cemil
 */
 
+.mainheader {
+	background-image: url("assets/bgk-header.png");
+	background-size: contain; 
+	display: flex;
+	flex-direction: column;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
+	padding-bottom: 350px;
+}
+
+.logo {
+	display: flex;
+}
+
+.tajam {
+	align-self: center;
+	
+}
+
+.navbar {
+	display: flex;
+	float: right;
+	margin-right: 50px;
+	align-self: center;
+	color: white;
+}
+
+
+li {
+	/* float: right; */
+	display: inline;
+	margin: 10px;
+}
+
+.awesome {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+}
+
+.creative {
+	display: flex;
+	align-self: center;
+	font-size: 30px;
+}
+
+.sometext {
+	display: flex;
+	align-self: center;
+	text-align: center;
+}
+
+.amazingteam {
+	background-image: url("assets/bgk-header.png");
+	background-size: contain; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 50px;
+	color: white;
+}
+
+.meet {
+	display: flex;
+	align-self: center;
+	text-align: center;
+}
+
+.moretext {
+	display: flex;
+	align-self: center;
+	text-align: center;
+}
+
+.gallery {
+	display: flex;
+}
+
+
+
 /*
    section Cemil end
 */
