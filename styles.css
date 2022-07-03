@@ -56,16 +56,16 @@ table {
 
 .mainheader {
 	background-image: url("assets/bgk-header.png");
-	background-size: contain; 
+	background-size: cover; 
 	display: flex;
 	flex-direction: column;
+	height: 100vh;
 }
 
 .navigation {
 	display: flex;
 	justify-content: space-around;
 	padding-top: 20px;
-	padding-bottom: 350px;
 }
 
 .logo {
@@ -74,7 +74,9 @@ table {
 
 .tajam {
 	align-self: center;
-	
+	font-size: 25px;
+	color: aqua;
+	font-weight: 100;
 }
 
 .navbar {
@@ -96,6 +98,8 @@ li {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
+	height: 100%;
 	color: white;
 }
 
@@ -103,38 +107,74 @@ li {
 	display: flex;
 	align-self: center;
 	font-size: 30px;
+	margin: 25px;
+}
+
+.line {
+	width: 50px;
+	border-color: aqua;
 }
 
 .sometext {
 	display: flex;
 	align-self: center;
 	text-align: center;
+	width: 50%;
+	margin: 25px;
 }
 
-.amazingteam {
-	background-image: url("assets/bgk-header.png");
-	background-size: contain; 
+.learn {
+	display: flex;
+	width: 100px;
+	height: 40px;
+	align-items: center;
+	font-size: 12px;
+	text-align: center;
+	line-height: 40px;
+	justify-content: center;
+	color: aqua;
+	background-color: transparent;
+	border: 1px solid aqua;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+.ourstory {
+	display: flex;
+	justify-content: center;
+	height: 300px;
+
+}
+
+.logo-left {
+	display: flex;
+	width: 20%;
+	align-items: center;
+}
+
+.logo-left img {
+	height: 100px;
+	width: 100px;
+}
+
+.story-right {
 	display: flex;
 	flex-direction: column;
+	align-items: start;
 	justify-content: center;
-	padding-top: 50px;
-	color: white;
+	width: 50%;
 }
 
-.meet {
-	display: flex;
-	align-self: center;
-	text-align: center;
+.story-right p {
+	padding-top: 20px;
 }
 
-.moretext {
-	display: flex;
-	align-self: center;
-	text-align: center;
+.learn {
+	margin-top: 30px;
 }
 
-.gallery {
-	display: flex;
+.ourstory .story-right h2 {
+	font-weight: bold;
 }
 
 
