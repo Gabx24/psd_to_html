@@ -307,7 +307,7 @@ li {
 }
 
 #contact_section .container .row .col-2 input::placeholder, textarea::placeholder{
-    color: rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.3);
     font-family: 'Gentium Book Plus', serif;
     font-size: 16px;
     font-weight: 700;
@@ -316,8 +316,8 @@ li {
 
 #contact_section .container .row .col-3{
     box-sizing: border-box;
-    width: 33%;
-    min-width: 200px;
+    width: 27%;
+    min-width: 415px;
     height: auto;
     padding: 20px;
     display: flex;
@@ -503,7 +503,10 @@ li {
             #contact_section .container .row .col-2{
                 box-sizing: border-box;
                 width: 100%;
-
+            }
+            #contact_section .container .row .col-3{
+                width: 27%;
+                min-width: 200px;
             }
   }
 
